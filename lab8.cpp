@@ -43,12 +43,12 @@ bool isPalindrome(string text){
 
 int main(){
 	bool itis;
-	string text = "Madam, I'm Adam!";
+	string text = "comoomoc";
 	text = punct(text);
 	itis= isPalindrome(text);
 	cout<<itis<<endl<<endl;
 	
-	string text2 = "KATHya";
+	string text2 = "nose";
 	text2 = punct(text2);
 	itis = isPalindrome(text2);
 	cout<<itis<<endl<<endl;
